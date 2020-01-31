@@ -44,13 +44,8 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'ダッシュボード',
+          title: 'Tips一覧',
           to: '/'
-        },
-        {
-          icon: 'mdi-file-document-box-multiple',
-          title: '実践管理',
-          to: '/card'
         },
         {
           icon: 'mdi-file-document-box-multiple',
@@ -61,6 +56,11 @@ export default {
           icon: 'mdi-chart-bar',
           title: '相関性',
           to: '/data'
+        },
+        {
+          icon: 'mdi-account',
+          title: 'マイページ',
+          to: '/dashboard'
         }
 
       ],
