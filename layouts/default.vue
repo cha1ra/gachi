@@ -6,13 +6,30 @@
     <v-app-bar
       app
       clipped-left
-      color="deep-orange"
+      color="white"
+      elevation="2"
     >
-      <v-toolbar-title>
-        <v-img :src="require('~/static/icon.png')" />
+      <v-toolbar-title class="mr-4">
+        <v-img :src="require('~/static/logo.svg')" width="180" />
       </v-toolbar-title>
+      <v-btn color="mblack" text>
+        カテゴリ一覧
+      </v-btn>
+      <v-btn color="mblack" text class="mr-4">
+        ランキング
+      </v-btn>
       <v-spacer />
-      <v-btn outlined dark>
+      <v-btn
+        color="mblack"
+        outlined
+        class="mr-2"
+      >
+        新規会員登録
+      </v-btn>
+      <v-btn
+        color="mblack"
+        outlined
+      >
         <v-icon>mdi-login</v-icon>ログイン
       </v-btn>
     </v-app-bar>
